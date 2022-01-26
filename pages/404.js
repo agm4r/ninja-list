@@ -3,7 +3,6 @@ import { useEffect } from 'react';
 import Router, { useRouter } from 'next/router'
 
 const NotFound = () => {
-
     useEffect(() => {
        setTimeout(() => {
         Router.push("/")
